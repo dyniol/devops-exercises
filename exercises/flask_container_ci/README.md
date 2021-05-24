@@ -39,7 +39,8 @@ Using Docker or Podman, containerize the flask app so users can run the followin
 
 ```
 docker build -t app:latest /path/to/Dockerfile
-docker run -d -p 5000:5000 app
+
+
 ```
 
 1. You can use any image base you would like
